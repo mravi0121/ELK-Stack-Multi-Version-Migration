@@ -1,0 +1,14 @@
+# Example Elasticsearch configuration only.
+# Adapt and validate for the target environment; do not copy blindly.
+
+cluster.name: example-cluster
+node.name: example-node
+node.roles: [ master, data, ingest ]
+
+# Set network and discovery configuration appropriate to your environment.
+# network.host: 0.0.0.0
+# discovery.seed_hosts: ["node-1", "node-2"]
+# cluster.initial_master_nodes: ["node-1", "node-2"]
+
+# Remove cluster.initial_master_nodes after initial cluster formation
+# where applicable, following Elastic guidance.

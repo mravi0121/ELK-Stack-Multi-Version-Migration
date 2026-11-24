@@ -1,0 +1,20 @@
+# Credentials and sensitive material
+.env
+*.pem
+*.key
+*.crt
+credentials*
+*.secret
+
+# Backups and logs
+backup/
+backups/
+*.bak
+*.log
+
+# Temporary/OS files
+*.tmp
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
